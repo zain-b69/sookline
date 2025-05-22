@@ -4,7 +4,7 @@
 $host = 'localhost';      
 $dbname = 'sookline';      // Remplace par le nom de ta base
 $username = 'root';        // Ton user MySQL 
-$password = 'hello';       // Ton mot de passe
+$password = '';       // Ton mot de passe
 
 // Connexion MySQLi orientée objet
 $conn = new mysqli($host, $username, $password, $dbname);
