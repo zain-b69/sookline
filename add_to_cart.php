@@ -4,7 +4,7 @@
 session_start();
 
 // Connexion simple 
-$conn = mysqli_connect("localhost", "root", "hello", "sookline");
+$conn = mysqli_connect("localhost", "root", "", "sookline");
 if (!$conn) {
     die("Connexion échouée: " . mysqli_connect_error());
 }
